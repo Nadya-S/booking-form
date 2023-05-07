@@ -1,0 +1,89 @@
+.booking-form {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin: 50px auto;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.637);
+}
+
+.booking-form__image {
+  height: 150px;
+  background: url("../../images/shaun-he-zTifOu0tAbc-unsplash.jpg") 100%;
+}
+
+.booking-form__title {
+  margin-left: 15px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.booking-form__field {
+  display: flex;
+  flex-direction: column;
+  border: none;
+}
+
+.booking-form__list {
+  border: none;
+  border-bottom: 1px solid rgb(195, 191, 191) ;
+}
+
+.booking-form__list:focus {
+  outline: 3px solid rgba(195, 249, 225, 0.784);
+  border-radius: 5px;
+  border: none;
+}
+
+.booking-form__list-title {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 8px 0;
+}
+
+.booking-form__input-title {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.booking-form__input {
+  border: none;
+  border-bottom: 1px solid rgb(195, 191, 191);
+}
+
+.booking-form__input:focus {
+    outline: 3px solid rgba(195, 249, 225, 0.784);
+    border-radius: 5px;
+    border: none;
+}
+
+.booking-form__comment {
+  height: 80px;
+  border: 1px solid rgb(195, 191, 191);
+}
+
+.booking-form__comment:focus {
+    outline: 3px solid rgba(195, 249, 225, 0.784);
+    border-radius: 5px;
+    border: none;
+}
+
+.booking-form__button {
+  margin: 10px auto;
+  width: 80%;
+  height: 30px;
+  border: none;
+  padding: 0;
+  border-radius: 5px;
+  background-color: rgba(195, 249, 225, 0.784);
+  font-size: 14px;
+}
+
+.booking-form__button:last-child {
+  margin-bottom: 40px;
+}
+
+.booking-form__button:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
